@@ -46,7 +46,7 @@ li {
   border-radius: 50%;
 }
 
-.header h1 {
+.header h2 {
   flex-grow: 1;
   margin: 0;
   font-size: 1.25rem;
