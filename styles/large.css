@@ -48,13 +48,17 @@
   }
 
   /* Main */
+
   main .section__intro {
     flex-direction: row;
   }
   .section__web h2 {
     font-size: 2rem;
   }
-
+.section__courses ul {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
   .course {
     font-size: 1rem;
   }

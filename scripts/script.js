@@ -28,7 +28,7 @@ document.querySelector('button[data-filter="all"]').click();
 
 // DATE MODIFIED
 const currentYear = new Date().getFullYear();
-document.querySelector("footer h2").innerText = `©  🤍 Ozioma Heaven Gabriel 🤍 Abuja ${currentYear}`;
+document.querySelector("footer h2").innerText = `©  🤍 Ozioma Heaven Gabriel 🤍 Abuja  ${currentYear}`;
 
 
 const lastModified = document.lastModified;
