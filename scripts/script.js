@@ -6,22 +6,6 @@ toggleButton.addEventListener('click', () => {
 });
 
 
-// COURSE SECTION
-const buttons = document.querySelectorAll(".section__course button");
-const courses = document.querySelectorAll(".course");
-
-buttons.forEach(button => {
-  button.addEventListener("click", () => {
-    const filter = button.getAttribute("data-filter");
-
-    courses.forEach(course => {
-      course.classList.remove("show"); 
-      if (filter === "all" || course.classList.contains(filter)) {
-        course.classList.add("show");
-      }
-    });
-  });
-});
 
 document.querySelector('button[data-filter="all"]').click();
 

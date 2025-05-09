@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="scripts/script.js" defer></script>
+    <script src="scripts/course.js" defer></script>
   </head>
   <body>
     <header>
@@ -64,26 +65,21 @@
         </section>
       </section>
 
-      <section class="section__web">
-        <h2 class="section__head">Web and Computer Programming Certificate</h2>
 
-        <div class="section__course">
-          <button data-filter="all">All</button>
-          <button data-filter="cse">CSE</button>
-          <button data-filter="wdd">WDD</button>
-        </div>
 
-        <div class="section__courses">
-          <ul>
-            <li class="course cse"><a href="">CSE 110</a></li>
-            <li class="course wdd"><a href="">WDD 130</a></li>
-            <li class="course cse"><a href="">CSE 111</a></li>
-            <li class="course cse"><a href="">CSE 210</a></li>
-            <li class="course wdd"><a href="">WDD 131</a></li>
-            <li class="course wdd"><a href="">WDD 231</a></li>
-          </ul>
-        </div>
-      </section>
+        <section class="section__web">
+            <h2 class="section__head">Web and Computer Programming Certificate</h2>
+          
+            <div class="section__course">
+              <button data-filter="all">All</button>
+              <button data-filter="CSE">CSE</button>
+              <button data-filter="WDD">WDD</button>
+            </div>
+          
+            <ul id="course-list" class="section__courses"></ul>
+            <p id="total-credits"><strong>Total Credits:</strong> 0</p>
+
+          </section>
     </main>
 
     <!-- Footer Section -->
