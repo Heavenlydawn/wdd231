@@ -1,11 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD231 || Heaven Gabriel</title>
-</head>
-<body>
-    <h1>Ozioma Heaven Gabriel</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="author" content="Heaven Gabriel" >
+    <meta name="description" content="WDD 131 Heaven Gabriel's Course Landing Page">
+    <title>WDD 231 - Web Frontend Development - Heaven Gabriel</title>
+    <link rel="stylesheet" href="styles/small.css" >
+    <link rel="stylesheet" href="styles/large.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+    <script src="scripts/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__logo">
+          <img
+            src="images/heaven.png"
+            alt="Heaven Gabriel"
+            width="100"
+            height="100"
+          />
+          <h1>Ozioma Heaven Gabriel</h1>
+        </div>
+
+        <button id="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+      </div>
+
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="chamber.html">Chamber</a></li>
+          <li><a href="#">Final</a></li>
+          <li><a href="https://github.com/Heavenlydawn">GitHub Profile</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/oziomaheavengabriel"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Home</h2>
+
+      <section class="section__intro">
+        <!--  Course Work   -->
+        <section>
+          <h2 class="section__head">Course Work</h2>
+          <ul>
+            <li>.</li>
+            <li>.</li>
+            <li>.</li>
+          </ul>
+        </section>
+
+        <!-- Location -->
+        <section class="section__location">
+          <h2 class="section__head">Abuja, Nigeria</h2>
+
+          <div class="section__location">
+            <img src="images/nigeria.webp" alt="Nigeria" width="200" />
+            <p>Abuja, Nigeria</p>
+          </div>
+        </section>
+      </section>
+
+      <section class="section__web">
+        <h2 class="section__head">Web and Computer Programming Certificate</h2>
+
+        <div class="section__course">
+          <button data-filter="all">All</button>
+          <button data-filter="cse">CSE</button>
+          <button data-filter="wdd">WDD</button>
+        </div>
+
+        <div class="section__courses">
+          <ul>
+            <li class="course cse"><a href="">CSE 110</a></li>
+            <li class="course wdd"><a href="">WDD 130</a></li>
+            <li class="course cse"><a href="">CSE 111</a></li>
+            <li class="course cse"><a href="">CSE 210</a></li>
+            <li class="course wdd"><a href="">WDD 131</a></li>
+            <li class="course wdd"><a href="">WDD 231</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <h2>&copy; 🤍 Ozioma Heaven Gabriel 🤍 Abuja</h2>
+      <p>Last Modified: <span id="date">05/03/2025</span></p>
+    </footer>
+    <!-- End of Footer Section -->
+  </body>
 </html>
