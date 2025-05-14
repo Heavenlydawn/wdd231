@@ -72,8 +72,9 @@ const navLinks = document.getElementById("navLinks");
 hamburgerBtn.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
+
 document.querySelectorAll(".nav-links a").forEach((link) => {
   link.addEventListener("click", () => {
     navLinks.classList.remove("active");
   });
-});
+});x

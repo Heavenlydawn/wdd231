@@ -1,28 +1,36 @@
 @media (max-width: 768px) {
-.hamburger {
-  display: flex;
-}
+  .hamburger {
+    display: flex;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+  }
 
- header nav .nav-links {
+  header nav .nav-links {
     flex-direction: column;
+    justify-content: center;
     position: fixed;
     top: 0;
-    left: -250px; /* hidden initially */
+    left: -250px;
     width: 250px;
     height: 100%;
-    background-color: white;
+    background-color: var(--accent2-color);
     padding: 2rem;
     gap: 1.5rem;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
     transition: left 0.3s ease;
     z-index: 1000;
   }
 
   .nav-links.active {
-    left: 0; /* Slide in */
+    left: 0; 
   }
+
+
 header nav .nav-links{
-    display: none;
+    display: flex;
 }
 header nav .logo img{
     width: 50px;
