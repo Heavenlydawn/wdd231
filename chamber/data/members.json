@@ -1,0 +1,111 @@
+[
+    {
+      "name": "Sunrise Bakery",
+      "address": "123 Main Street, Abuja",
+      "phone": "+234-700-555-0101",
+      "website": "https://sunrisebakery.ng",
+      "image": "https://cdn-icons-png.flaticon.com/512/2965/2965567.png",
+      "membershipLevel": 3,
+      "description": "Premium bakery specializing in artisan breads."
+    },
+    {
+      "name": "Nova Tech Solutions",
+      "address": "456 Tech Avenue, Abuja",
+      "phone": "+234-700-555-0202",
+      "website": "https://novatech.ng",
+      "image": "https://cdn-icons-png.flaticon.com/512/2721/2721715.png",
+      "membershipLevel": 2,
+      "description": "Leading provider of IT solutions and cloud services."
+    },
+    {
+      "name": "Royal Cleaners",
+      "address": "78 Queen's Road, Abuja",
+      "phone": "+234-700-555-0303",
+      "website": "https://royalcleaners.ng",
+      "image": "https://cdn-icons-png.flaticon.com/512/1046/1046890.png",
+      "membershipLevel": 1,
+      "description": "Eco-friendly dry cleaning and laundry services."
+    },
+    {
+      "name": "GreenScape Landscaping",
+      "address": "45 Garden Lane, Abuja",
+      "phone": "+234-700-555-0404",
+      "website": "https://greenscape.ng",
+      "image": "https://cdn-icons-png.flaticon.com/512/3239/3239953.png",
+      "membershipLevel": 3,
+      "description": "Award-winning landscaping and outdoor design."
+    },
+    {
+      "name": "Elite Gym",
+      "address": "22 Fitness Blvd, Abuja",
+      "phone": "+234-700-555-0505",
+      "website": "https://elitegym.ng",
+      "image": "https://cdn-icons-png.flaticon.com/512/3208/3208720.png",
+      "membershipLevel": 2,
+      "description": "State-of-the-art fitness and wellness center."
+    },
+    {
+      "name": "Kraft Boutique",
+      "address": "89 Fashion Street, Abuja",
+      "phone": "+234-700-555-0606",
+      "website": "https://kraftboutique.ng",
+      "image": "https://cdn-icons-png.flaticon.com/512/3003/3003984.png",
+      "membershipLevel": 1,
+      "description": "Locally made crafts, clothing, and accessories."
+    },
+    {
+      "name": "Global Link Travel",
+      "address": "12 Departure Road, Abuja",
+      "phone": "+234-700-555-0707",
+      "website": "https://globallinktravel.ng",
+      "image": "https://cdn-icons-png.flaticon.com/512/854/854878.png",
+      "membershipLevel": 3,
+      "description": "Trusted travel agency for local and international tours."
+    },
+    {
+      "name": "EduTech Hub",
+      "address": "102 Learn Lane, Abuja",
+      "phone": "+234-700-555-0808",
+      "website": "https://edutechhub.ng",
+      "image": "https://cdn-icons-png.flaticon.com/512/2965/2965278.png",
+      "membershipLevel": 2,
+      "description": "Innovative online learning platform for students and professionals."
+    },
+    {
+      "name": "FreshMart Groceries",
+      "address": "55 Market Road, Abuja",
+      "phone": "+234-700-555-0909",
+      "website": "https://freshmart.ng",
+      "image": "https://cdn-icons-png.flaticon.com/512/1046/1046857.png",
+      "membershipLevel": 1,
+      "description": "Affordable and fresh produce with home delivery services."
+    },
+    {
+      "name": "Bytewise Cybersecurity",
+      "address": "17 Security Drive, Abuja",
+      "phone": "+234-700-555-1010",
+      "website": "https://bytewise.ng",
+      "image": "https://cdn-icons-png.flaticon.com/512/542/542638.png",
+      "membershipLevel": 3,
+      "description": "Specialized in protecting digital infrastructure for businesses."
+    },
+    {
+      "name": "Style Haven Salon",
+      "address": "30 Beauty Avenue, Abuja",
+      "phone": "+234-700-555-1111",
+      "website": "https://stylehaven.ng",
+      "image": "https://cdn-icons-png.flaticon.com/512/1685/1685307.png",
+      "membershipLevel": 1,
+      "description": "Luxury hair and beauty salon with certified stylists."
+    },
+    {
+      "name": "QuickFix Auto Services",
+      "address": "90 Mechanic Way, Abuja",
+      "phone": "+234-700-555-1212",
+      "website": "https://quickfixauto.ng",
+      "image": "https://cdn-icons-png.flaticon.com/512/2942/2942925.png",
+      "membershipLevel": 2,
+      "description": "Reliable and affordable car repair and maintenance."
+    }
+  ]
+  
