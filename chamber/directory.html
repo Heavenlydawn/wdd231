@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="scripts/directory.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
   </head>
   <body>
     <!-- Header Section -->
@@ -43,6 +44,7 @@
     
       <!-- Main Section -->
       <main>
+        <!-- Hero Section -->
       <div class="hero">
         <div class="hero__text">
           <h1>Welcome to The <br> Abuja Chamber of Commerce</h1>
@@ -53,6 +55,30 @@
         </div>
       </div>
 
+      <!-- Weather section -->
+       <section class="info-section">
+        <div class="weather_card">
+          <h3>Events</h3>
+          <div id="events">No events right now.</div>
+        </div>
+
+        <div class="weather_card" id="currentWeather">
+          <h3>Current Weather</h3>
+         <div class="weather_icon">
+          <img src="images/weather-icon.png" alt="" width="50" height="50">
+           <div id="weatherNow">Loading...</div>
+         </div>
+        </div>
+
+        <div class="weather_card" id="forecast">
+          <h3>Weather Forecast</h3>
+          <div id="weatherForecast">Loading...</div>
+        </div>
+      </section>
+
+
+
+      <!-- Chamber Section -->
         <div class="main-header">
         <h1>Chamber Member Directory</h1>
         <div class="view-toggle">

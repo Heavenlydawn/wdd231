@@ -63,7 +63,7 @@ header nav .logo .logo__text p {
   margin: 0;
 }
 
-header nav .nav-links{
+header nav .nav-links {
   display: flex;
   gap: 1rem;
 }
@@ -91,7 +91,7 @@ header nav .nav-links a:hover {
   cursor: pointer;
 }
 
-.theme button{
+.theme button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   font-weight: bold;
@@ -107,37 +107,37 @@ header nav .nav-links a:hover {
   transition: all 0.3s ease-in-out;
 }
 
-
 /* ************MAIN SECTION************* */
-main .hero{
+main .hero {
   background: url(../images/heroimage.webp) no-repeat center center/cover;
   height: 75vh;
 }
-main .hero .hero__text{
+main .hero .hero__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   height: 80%;
   padding: 2rem;
-
+  max-width: 1400px;
+  margin: 0 auto;
 }
-main .hero .hero__text h1{
+main .hero .hero__text h1 {
   font-size: 3rem;
   margin-bottom: 20px;
 }
-main .hero .hero__text p{
+main .hero .hero__text p {
   font-size: 1.5rem;
   margin-bottom: 20px;
 }
-main .hero .key__ticket{
+main .hero .key__ticket {
   display: flex;
   flex-direction: column;
-  justify-content:flex-end;
+  justify-content: flex-end;
   align-items: flex-end;
   padding: 2rem;
 }
-main .hero .key__ticket button{
+main .hero .key__ticket button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   font-weight: bold;
@@ -152,6 +152,51 @@ main .hero .key__ticket button:hover {
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
+
+
+/* ***********WEATHER SECTION************ */
+
+.info-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.weather_card {
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  flex: 1;
+  min-width: 250px;
+}
+
+.weather_card h3 {
+  background-color: var(--accent1-color);
+  color: #fff;
+  padding: 1rem;
+  margin: -1rem -1rem 1rem -1rem;
+  font-size: 1.2rem;
+}
+
+.weather_card .weather_icon{
+  display: flex;
+  gap: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 #members {
   display: grid;
@@ -227,11 +272,11 @@ footer {
   background-color: var(--accent3-color);
 }
 
-footer .footer__logo{
+footer .footer__logo {
   display: flex;
   align-items: center;
   gap: 1rem;
-  color:#000;
+  color: #000;
 }
 footer h3 {
   font-size: 1.5rem;
