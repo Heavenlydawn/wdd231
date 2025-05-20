@@ -18,6 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="scripts/directory.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/wayfinder.js" defer></script>
   </head>
   <body>
     <!-- Header Section -->
@@ -123,14 +124,5 @@
       </footer>
 
 
-      <script>
-      const links = document.querySelectorAll('.nav-links a');
-      links.forEach(link => {
-    if (link.href === window.location.href) {
-      link.classList.add('active');
-      link.innerHTML = "📍 " + link.textContent.trim();
-    }
-  });
-</script>
   </body>
 </html>
