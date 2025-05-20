@@ -32,12 +32,12 @@
     </div>
 
       <button class="hamburger" id="hamburgerBtn">☰</button>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="directory.html">Directory</a></li>
-      <li><a href="join.html">Join</a></li>
-      <li><a href="discover.html">Contact</a></li>
-    </ul>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="directory.html" >Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="discover.html">Contact</a></li>
+        </ul>
 
     <div class="theme">
     <button id="themeToggle" aria-label="Toggle dark mode">🌙</button>
@@ -121,5 +121,16 @@
             <p>Last Modified: <span id="lastModified"></span></p>
         </div>
       </footer>
+
+
+      <script>
+      const links = document.querySelectorAll('.nav-links a');
+      links.forEach(link => {
+    if (link.href === window.location.href) {
+      link.classList.add('active');
+      link.innerHTML = "📍 " + link.textContent.trim();
+    }
+  });
+</script>
   </body>
 </html>
