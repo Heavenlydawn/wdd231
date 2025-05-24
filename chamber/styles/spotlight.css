@@ -111,7 +111,7 @@ main .hero-home {
 
 #spotlightsContainer {
   display: flex;
-  gap: 2rem;;
+  gap: 2rem;
   overflow: hidden;
   transition: transform 0.5s ease-in-out;
 }
