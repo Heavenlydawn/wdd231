@@ -96,50 +96,52 @@ main .hero-home {
   margin: 0.3rem 0;
   color: #374151;
 }
+.spotlights {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
 
-.carousel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  position: relative;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease-in-out;
+.spotlights h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #1a202c;
 }
 
 #spotlightsContainer {
   display: flex;
-  justify-content: center;
-  gap: 1rem;
-  padding: 1rem;
-  flex-wrap: wrap;
+  gap: 2rem;;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
 }
 
 .card {
-  flex: 1 1 30%;
-  border-radius: 8px;
+  flex: 0 0 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   padding: 1rem;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  max-width: 300px;
-}
-
-.spotlight-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-}
-
-.card {
   background: #f9f9f9;
-  padding: 1rem;
   border-radius: 10px;
+  text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: background 0.3s;
 }
 
 .card img {
-  max-width: 100%;
-  height: auto;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  #spotlightsContainer {
+    flex-wrap: nowrap;
+  }
+
+  .card {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
 }
