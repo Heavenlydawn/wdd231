@@ -48,35 +48,18 @@ function getMembershipLevel(level) {
   return level === 3 ? "Gold" : level === 2 ? "Silver" : "Member";
 }
 
-// Toggle view buttons
-gridBtn.addEventListener("click", () => {
-  membersSection.classList.add("grid-view");
-  membersSection.classList.remove("list-view");
-});
 
-listBtn.addEventListener("click", () => {
-  membersSection.classList.add("list-view");
-  membersSection.classList.remove("grid-view");
-});
-
-// Footer update
-document.getElementById("year").textContent = new Date().getFullYear();
-document.getElementById("lastModified").textContent = document.lastModified;
-
-getMembers();
 
 // Hamburger menu
 const hamburgerBtn = document.getElementById("hamburgerBtn");
 const navLinks = document.getElementById("navLinks");
 
-if (hamburgerBtn && navLinks) {
-  hamburgerBtn.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-  });
+hamburgerBtn.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
 
-  document.querySelectorAll(".nav-links a").forEach((link) => {
-    link.addEventListener("click", () => {
-      navLinks.classList.remove("active");
-    });
+document.querySelectorAll(".nav-links a").forEach((link) => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("active");
   });
-}
+});
