@@ -67,6 +67,10 @@ main .hero-home {
   margin-bottom: 1.5rem;
   color: #1a202c;
 }
+.spotlights p{
+  font-size: 1rem;
+
+}
 
 .events-container {
   display: grid;
@@ -113,8 +117,19 @@ main .hero-home {
   display: flex;
   gap: 2rem;
   overflow: hidden;
-  transition: transform 0.5s ease-in-out;
+  position: relative;
+  min-height: 280px;
+  transition: opacity 0.5s ease-in-out;
 }
+.fade-out {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+
 
 .card {
   flex: 0 0 100%;
@@ -125,8 +140,9 @@ main .hero-home {
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: background 0.3s;
+  transition: transform 0.3s ease-in-out;
 }
+
 
 .card img {
   width: 80px;
@@ -145,3 +161,5 @@ main .hero-home {
     max-width: 33.333%;
   }
 }
+
+

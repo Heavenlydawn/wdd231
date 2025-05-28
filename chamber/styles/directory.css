@@ -185,7 +185,9 @@ main .hero .key__ticket button:hover {
   margin: -1rem -1rem 1rem -1rem;
   font-size: 1.2rem;
 }
-
+.weather_card p{
+  font-size: 1.2rem;
+}
 .weather_card .weather_icon{
   display: flex;
   gap: 2rem;
@@ -208,6 +210,10 @@ main .hero .key__ticket button:hover {
   padding: 1rem;
   max-width: 1400px;
   margin: 0 auto;
+}
+#members p{
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 .main-header {
   padding: 1rem;
