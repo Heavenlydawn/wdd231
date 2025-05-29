@@ -1,0 +1,93 @@
+form {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 0.25rem;
+}
+.membership-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  transition: all 1s ease-in;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #000;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.modal-content {
+  background: white;
+  margin: 10% auto;
+  padding: 1rem;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 8px;
+  position: relative;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+.info {
+  text-align: left;
+  margin-top: 2rem;
+}
+.info p {
+  margin: 0.5rem 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
