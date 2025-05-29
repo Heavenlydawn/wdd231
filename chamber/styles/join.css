@@ -25,6 +25,9 @@ select {
   max-width: 1200px;
   transition: all 1s ease-in;
 }
+.card {
+  animation: fadeIn 2s ease-in forwards;
+}
 
 .card a {
   display: inline-block;
