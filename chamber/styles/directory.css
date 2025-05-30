@@ -48,15 +48,34 @@ header nav {
   max-width: 1400px;
   margin: 0 auto;
 }
+
+header nav .logo .logo-img {
+  width: 100px;
+  height: auto;
+}
+
+header nav .logo .logo-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* header .logo-img {
+    width: auto;
+    height: 50px;
+  } */
+
 header nav .logo {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
+
 header nav .logo .logo__text h3 {
   font-size: 2.5rem;
   margin: 0;
 }
+
 header nav .logo .logo__text p {
   font-size: 1rem;
   margin: 0;
