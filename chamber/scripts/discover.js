@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((res) => res.json())
     .then((data) => {
       const grid = document.getElementById("discoverGrid");
+      
       data.forEach((item, i) => {
         const card = document.createElement("article");
         card.classList.add("discover-card");
