@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Unity Park",
+    "image": "images/unity-park.webp",
+    "address": "101 Peace Ave, Abuja",
+    "description": "A relaxing green space in the heart of the city with fountains, walking trails, and a playground."
+  },
+  {
+    "title": "National Mosque",
+    "image": "images/national-mosque.webp",
+    "address": "Independence Ave, Central Area, Abuja",
+    "description": "A grand architectural landmark and one of the most iconic religious centers in Nigeria."
+  },
+  {
+    "title": "Millennium Park",
+    "image": "images/millennium-park.webp",
+    "address": "Maitama District, Abuja",
+    "description": "The largest public park in Abuja with serene gardens and scenic paths."
+  },
+  {
+    "title": "Jabi Lake Mall",
+    "image": "images/jabi-lake-mall.webp",
+    "address": "Jabi Lake, Bala Sokoto Way, Abuja",
+    "description": "A major shopping destination featuring top brands, a cinema, and a lakeside view."
+  },
+  {
+    "title": "Aso Rock",
+    "image": "images/aso-rock.webp",
+    "address": "Asokoro District, Abuja",
+    "description": "A prominent rock formation offering views of the city and symbolic national relevance."
+  },
+  {
+    "title": "Art & Craft Village",
+    "image": "images/art-craft-village.webp",
+    "address": "Opposite Sheraton Hotel, Abuja",
+    "description": "A lively hub for handcrafted souvenirs, traditional artwork, and local culture."
+  },
+  {
+    "title": "Magicland Amusement Park",
+    "image": "images/magicland.webp",
+    "address": "Constitution Ave, Abuja",
+    "description": "Family-friendly amusement park with rides, games, and delicious snacks."
+  },
+  {
+    "title": "Zuma Rock",
+    "image": "images/zuma-rock.webp",
+    "address": "Along Abuja–Kaduna Expressway",
+    "description": "A majestic monolith known as the 'Gateway to Abuja' with rich cultural significance."
+  }
+]
