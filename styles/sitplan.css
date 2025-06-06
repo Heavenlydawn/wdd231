@@ -1,0 +1,106 @@
+/* Color Schema */
+
+:root {
+  --primary-color: #4b4d39;
+  --secondary-color: #4c583e;
+  --accent1-color: #2c3424;
+  --accent2-color: #daded8;
+  --accent3-color: #768064;
+  --heading-font: "Raleway", serif;
+  --text-font: "Inter", serif;
+  --text-color:#000;
+}
+
+body {
+  font-family: var(--text-font);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2.5rem;
+  border-bottom: 3px solid var(--primary-color);
+  padding-bottom: 0.3rem;
+  max-width: max-content;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 3rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  max-width: 700px;
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+}
+
+/* Wireframe sketches using CSS boxes */
+.wireframe-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.wireframe {
+  background: #eee;
+  border: 2px dashed var(--secondary-color);
+  border-radius: 6px;
+  padding: 1rem;
+  flex: 1 1 300px;
+  min-width: 280px;
+  margin: 0 auto;
+  font-family: monospace;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+/* Sketch labels */
+.wireframe h4 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+/* Wireframe boxes */
+.wireframe-box {
+  background: white;
+  border: 1px solid var(--primary-color);
+  margin-bottom: 10px;
+  padding: 15px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+footer h2{
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}

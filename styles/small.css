@@ -92,12 +92,12 @@ main .section__intro {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  gap: 2rem;;
+  gap: 2rem;
 }
 main .section__intro section {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   width: 100%;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 main .section__intro .section__location {
   display: flex;
@@ -135,9 +135,9 @@ section .section__course button {
 section .section__course button:hover {
   background-color: var(--accent2-color);
   cursor: pointer;
-  color:#000;
+  color: #000;
 }
-.section__courses  {
+.section__courses {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 1rem;
@@ -149,7 +149,7 @@ section .section__course button:hover {
   font-weight: bold;
   margin: 1rem 0;
   padding: 1rem;
-  font-size: .7rem;
+  font-size: 0.7rem;
   color: var(--accent2-color);
 }
 
@@ -160,38 +160,38 @@ section .section__course button:hover {
 .course.wdd.show {
   background: var(--primary-color);
 }
-.course.wdd.show a{
-    color: #fff;
+.course.wdd.show a {
+  color: #fff;
 }
 .course.cse.show {
   background: var(--primary-color);
 }
-.course.cse.show a{
-    color: #fff;
+.course.cse.show a {
+  color: #fff;
 }
-  
-  .completed {
-    background-color: #e6ffe6; 
-    border-left: 6px solid #28a745;
-    color: #000;
-  }
-  
-  .incomplete {
-    background-color: #ffe6e6; 
-    border-left: 6px solid #dc3545;
-    color: #000;
-  }
-  
-  .course h3 {
-    margin: 0 0 0.5rem;
-  }
 
-  #total-credits{
-    font-weight: bold;
-    margin: 1rem 0;
-    text-align: center;
-    font-size: 1rem;
-  }
+.completed {
+  background-color: #e6ffe6;
+  border-left: 6px solid #28a745;
+  color: #000;
+}
+
+.incomplete {
+  background-color: #ffe6e6;
+  border-left: 6px solid #dc3545;
+  color: #000;
+}
+
+.course h3 {
+  margin: 0 0 0.5rem;
+}
+
+#total-credits {
+  font-weight: bold;
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 1rem;
+}
 
 footer {
   padding: 2rem;
