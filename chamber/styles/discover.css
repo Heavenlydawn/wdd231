@@ -60,7 +60,7 @@ button {
 .visitor-message {
   background: #f3f3f3;
   padding: 0.5rem;
-  border-left: 4px solid var(--accent1-color);
+  border-left: 7px solid var(--accent1-color);
   margin: 1rem 0;
 }
 
