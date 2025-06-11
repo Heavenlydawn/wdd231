@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         card.style.gridArea = `card${i + 1}`;
         card.innerHTML = `
           <h2>${item.title}</h2>
-          <figure><img src="${item.image}" alt="${item.title}"></figure>
+          <figure><img src="${item.image}" alt="${item.title}" loading="lazy"></figure>
           <address>${item.address}</address>
           <p>${item.description}</p>
           <button>Learn More</button>
