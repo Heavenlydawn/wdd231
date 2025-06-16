@@ -12,7 +12,6 @@
   --accent1-color: #2c3424;
   --accent2-color: #daded8;
   --accent3-color: #768064;
-  --accent-color4: #bafff7e3;
   --rich-black: #010b13;
 
   font-family: Outfit, Raleway, sans-serif;
@@ -214,9 +213,10 @@ a {
 .grtContainer {
   width: 100%;
   padding: 15px;
-  color: var(--accent-color4);
+  color: #fff;
+  background-color: var(--accent1-color);
   border: none;
-  background-color: black;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -235,9 +235,12 @@ a {
 footer {
   margin-top: 100px;
   background-color: var(--secondary-color);
-  color: white;
+  color: #fff;
 }
 
+footer .footend-section li{
+  color: #000;
+}
 .footer-background {
   padding: 20px;
 }
@@ -273,7 +276,7 @@ footer {
 
 .footend-section hr {
   margin: 12px 0;
-  border: 1px solid white;
+  border: 1px solid #000;
 }
 
 .footend-section ul {
