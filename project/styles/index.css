@@ -239,9 +239,7 @@ footer {
   color: #fff;
 }
 
-footer .footend-section li{
-  color: #000;
-}
+
 .footer-background {
   padding: 20px;
 }
@@ -277,7 +275,7 @@ footer .footend-section li{
 
 .footend-section hr {
   margin: 12px 0;
-  border: 1px solid #000;
+  border: 1px solid #fff;
 }
 
 .footend-section ul {
